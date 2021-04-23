@@ -68,9 +68,10 @@ const collapseWidth = 991;
 var mobileScreen = false;
 
 
-function fitMedia(){
-var sumOfHeight = 0;
-groupButtons.forEach(function(elem, key){
+function fitMedia() {
+  var sumOfHeight = 0;
+  
+  groupButtons.forEach(function(elem, key){
   if(elem.style.display != 'none' && mobileScreen == true){
     sumOfHeight += elem.offsetHeight;}
 }) 
